@@ -1,0 +1,14 @@
+{
+  "name": "beautiful-landing-page",
+  "version": "1.0.0",
+  "description": "Une magnifique landing page moderne avec de vraies fonctionnalit�s et des images de qualit� professionnelle",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx serve .",
+    "deploy": "gh-pages -d ."
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "serve": "^14.0.0"
+  }
+}
